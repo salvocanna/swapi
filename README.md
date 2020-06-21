@@ -1,8 +1,13 @@
 # SWAPI
 ## The Star Wars API
 
-## NO LONGER MAINTAINED!
+### Forked from https://github.com/phalt/swapi
 
-If you rely on this project for your own tools - then please fork and spin up your own instance. It's a pretty simple project, and the Makefile will take you a long way.
+Forked from phalt/swapi but seems like this project wasn't really maintained much.
 
-If you are looking for an API to play with to learn about APIs, then I recommend [https://pokeapi.co](https://pokeapi.co).
+I've added a Dockerfile so to run it with ease and pushed a docker image at https://hub.docker.com/repository/docker/salvocanna/swapi
+
+Run with 
+```bash
+docker run -p 8080:8080 salvocanna/swapi:dev
+```
